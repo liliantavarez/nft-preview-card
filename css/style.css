@@ -30,7 +30,7 @@ main {
     height: 50px;
     opacity: 0;
     position: absolute;
-    background-image: url('/images/icon-view.svg');
+    background-image: url('../images/icon-view.svg');
     background-repeat: no-repeat;
 }
 
