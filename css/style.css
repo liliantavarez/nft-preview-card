@@ -12,8 +12,12 @@ main {
     align-items: center;
     font-size: 18px;
 }
-
-.descricao-img {
+hr{
+    border-color:#2f415b ;
+    border-style: solid;
+    margin: 0px 15px;
+}
+.information-card {
     margin: 0px 15px;
 }
 
@@ -58,7 +62,8 @@ main {
     margin-right: 10px;
 }
 
-#desc {
+#description {
+    margin: 10px 0 ;
     color: hsl(214, 32%, 29%);
 }
 
@@ -76,7 +81,7 @@ main {
     color: hsl(214, 32%, 29%);
 }
 
-.infos {
+.status {
     margin: 0 15px;
     display: flex;
     align-items: stretch;
@@ -90,16 +95,15 @@ b {
 }
 
 .name-card:hover,
-b:hover {
+b:hover{
     cursor: pointer;
     transition: 1s;
     color: hsl(178, 100%, 50%);
-    ;
+    
 }
 
 .creation {
-    margin-left: 15px;
-    padding: 20px 0;
+    padding: 15px;
     display: flex;
     align-items: center;
     color: hsl(214, 32%, 29%);
@@ -114,5 +118,4 @@ b:hover {
     width: 315px;
     height: 520px;
     background-color: hsl(216, 50%, 16%);
-    overflow: hidden;
 }
