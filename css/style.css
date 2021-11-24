@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+}
+
+main {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    font-family: "Outfit", sans-serif;
+    background-color: hsl(217, 54%, 11%);
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.descricao-img {
+    margin: 0px 15px;
+}
+
+.img {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.overlay {
+    width: 50px;
+    height: 50px;
+    opacity: 0;
+    position: absolute;
+    background-image: url('/images/icon-view.svg');
+    background-repeat: no-repeat;
+}
+
+.img:hover .overlay {
+    opacity: .7;
+}
+
+.image-card {
+    width: 90%;
+    border-radius: 10px;
+}
+
+.image-card:hover {
+    cursor: pointer;
+    filter: blur(2px); 
+    transition: 1ms;
+
+}
+
+#img-user {
+    border: white;
+    border-style: solid;
+    border-radius: 50%;
+    width: 40px;
+    margin-right: 10px;
+}
+
+#desc {
+    color: hsl(214, 32%, 29%);
+}
+
+.eth {
+    display: flex;
+    color: hsl(178, 100%, 50%);
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.days {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    color: hsl(214, 32%, 29%);
+}
+
+.infos {
+    margin: 0 15px;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    padding: 12px 0;
+}
+
+.name-card,
+b {
+    color: white;
+}
+
+.name-card:hover,
+b:hover {
+    cursor: pointer;
+    transition: 1s;
+    color: hsl(178, 100%, 50%);
+    ;
+}
+
+.creation {
+    margin-left: 15px;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    color: hsl(214, 32%, 29%);
+}
+
+.icons {
+    margin-right: 10px;
+}
+
+.card {
+    border-radius: 10px;
+    width: 315px;
+    height: 520px;
+    background-color: hsl(216, 50%, 16%);
+    overflow: hidden;
+}
