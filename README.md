@@ -1,3 +1,5 @@
+Challenge solution made by me: [Frontend Mentor - NFT preview card](http://127.0.0.1:5500/index.html) 
+
 # Frontend Mentor - NFT preview card component
 
 ![Design preview for the NFT preview card component coding challenge](./design/desktop-preview.jpg)
